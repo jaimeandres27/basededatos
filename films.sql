@@ -53,5 +53,5 @@ insert into profile(profile_id, name) values (1, 'Administrador');
 insert into profile(profile_id, name) values (2, 'Cliente');
 -- user
 INSERT INTO `user` (`user_id`, `name`, `email`, `password`, `create_at`, `profile_id`) VALUES
-(1, 'Jaime Echavarria', 'jaime.echavarria@est.iudigital.edu.co', '12345', '2021-04-06 22:36:47', 1),
-(2, 'Mariah Carey', 'mariah.carey@est.iudigital.edu.co', '12345', '2021-04-06 22:36:47', 2);
+(1, 'Jaime Echavarria', 'jaime.echavarria@est.iudigital.edu.co', '12345', now(), 1),
+(2, 'Mariah Carey', 'mariah.carey@est.iudigital.edu.co', '12345', now(), 2);
